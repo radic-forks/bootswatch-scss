@@ -7,7 +7,6 @@ Usage
 -----
 
 #### Features
-<div style="font-size: 9px">
 
 - Namespaced config (like laravel 4: `Config::get('vendor/package::config.item')`)
 - Namespaced publishing (like laravel 4: `config/packages/VENDOR/PACKAGE/config.php`)
@@ -17,6 +16,7 @@ Usage
 - 
 - Supports **PHP**, **YAML** and soon also **XML** configuration files.
 
+<div style="font-size: 9px">sfsdfsdf
 </div>
 Add it to your bower_components directory by executing
 

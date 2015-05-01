@@ -16,6 +16,9 @@ Usage
 - 
 - Supports **PHP**, **YAML** and soon also **XML** configuration files.
 
+<sub><sup>combining the two tags</sup></sub>
+
+
 <div style="font-size: 9px">sfsdfsdf
 </div>
 Add it to your bower_components directory by executing

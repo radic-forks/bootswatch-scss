@@ -6,6 +6,18 @@ Bootswatch-sass is a version of the [bootswatch](https://github.com/thomaspark/b
 Usage
 -----
 
+#### Features
+<div style="font-size: 9px">
+
+- Namespaced config (like laravel 4: `Config::get('vendor/package::config.item')`)
+- Namespaced publishing (like laravel 4: `config/packages/VENDOR/PACKAGE/config.php`)
+- Or use the standard Laravel 5 way:     Compatible with laravel 5 default configs. Adding the package will not invalidate your current setup. 
+- Persistent configuration. Save changes to a **`mirroring` `file` or `database`**.
+- `Config::getLoader()->set('iam/awesome::my.config.key', 'A changed value')` saves it to a **mirroring** `file` or `db`
+- 
+- Supports **PHP**, **YAML** and soon also **XML** configuration files.
+
+</div>
 Add it to your bower_components directory by executing
 
     bower install bootswatch-scss

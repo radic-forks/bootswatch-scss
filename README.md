@@ -8,7 +8,7 @@ Usage
 
 #### Features
 
-- Namespaced config (like laravel 4: `Config::get('vendor/package::config.item')`)
+- <sub>Namespaced config (like laravel 4: `Config::get('vendor/package::config.item')`)</sub>
 - Namespaced publishing (like laravel 4: `config/packages/VENDOR/PACKAGE/config.php`)
 - Or use the standard Laravel 5 way:     Compatible with laravel 5 default configs. Adding the package will not invalidate your current setup. 
 - Persistent configuration. Save changes to a **`mirroring` `file` or `database`**.
